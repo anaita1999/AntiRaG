@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    tools:context=".rules">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorAccent"
+            android:text="Rules and Regulations for Prevention and Prohibition of Ragging"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="The All India Council For Technical Education (AICTE), New Delhi vide its Notification no. 37-3/Legal/AICTE/2009 dated 25-03-2009 has taken a very serious view of ragging incidences in educational institutions and on Directions of the Hon’ble Supreme Court of India vide its Order dated 16.5.2007 has ordered strict implementation of following rules and regulations for Prevention and prohibition of Ragging in technical Institutions."
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorAccent"
+            android:text="The Hon’ble Supreme Court has, inter-alia, mentioned the following types of ragging:-"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="1. Ragging has several aspects with, among others, psychological, social, political, economic, cultural, and academic dimensions."
+        android:textColor="#020000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:text="2. Any act that prevents, disrupts or disturbs the regular academic activity of a student should be considered with in the academics related aspect of ragging; similarly, exploiting the services of a junior student for completing the academic tasks assigned to an individual or a group of seniors is also an aspect of academics related ragging prevalent in many institutions, particularly in the technical institutions."
+        android:textColor="#040000"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:text="3. Any act of financial extortion or forceful expenditure burden put on a junior student by senior students should be considered an aspect of ragging for ragging economic dimensions."
+        android:textColor="#050000"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="4. Any act of physical abuse including all variants of it: sexual abuse, homosexual assaults, stripping, forcing obscene and lewd acts, gestured, causing bodily harm or any other danger to health or person can be put in the category of ragging with criminal dimensions."
+        android:textColor="#040000"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:text="5. Any act or abuse by spoken words, emails, snail-mails, blogs, public insults should be considered with in the psychological aspects of ragging. This aspect would also include deriving perverted pleasure, vicarious or sadistic thrill from actively or passively participating in the discomfiture to others; the absence of preparing ‘freshers’ in the run up to their admission to higher education and life in hostels also can be ascribed as a psychological aspect of ragging – coping skills in interaction with seniors or strangers can be imparted by parents as well. Any act that affects the mental health and self-confidence of students also can be described in terms of the psychological aspects of ragging."
+        android:textColor="#020000"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:text="6. The human rights perspective of ragging involves the injury caused to the fundamental right to human dignity through humiliation heaped on junior students by seniors; often resulting in the extreme step of suicide by the victims."
+        android:textColor="#070000"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

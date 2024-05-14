@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".location">
+
+    <AutoCompleteTextView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Search for the place..."
+        android:textColor="#070101"
+        android:textColorHint="#130E0E" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="338dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/search"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-10dp">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/location_details"
+        android:layout_width="366dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/spinner"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:hint="Location"
+        android:inputType="textImeMultiLine"
+        android:textColor="#130F0F"
+        android:textColorHint="#090707" />
+
+    <Button
+        android:id="@+id/send_location"
+        android:layout_width="79dp"
+        android:layout_height="76dp"
+        android:layout_below="@+id/location_details"
+        android:layout_marginStart="290dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/ic_menu_send" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "898223525755",
+    "project_id": "antirag-d3d13",
+    "storage_bucket": "antirag-d3d13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898223525755:android:71a38c461d4b71c4a1f7de",
+        "android_client_info": {
+          "package_name": "its.antiragg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898223525755-mnrqc4jf6oq8tv3hpr0k95fhe0he2u03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "its.antiragg",
+            "certificate_hash": "3d40f29380d107efc87bbc8a9de7768b3f5c9889"
+          }
+        },
+        {
+          "client_id": "898223525755-ds6f80puuqs25f3da2mtrp14mk1b4k88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlR7trJJTkqXGVNtg4kuXXG2a7cTDjZIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898223525755-ds6f80puuqs25f3da2mtrp14mk1b4k88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

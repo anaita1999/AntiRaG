@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@android:drawable/sym_action_email"
+            android:title="Rules" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_ymca"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="ADAMAS" />
+            <item
+                android:id="@+id/nav_app"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="App" />
+        </menu>
+    </item>
+
+</menu>

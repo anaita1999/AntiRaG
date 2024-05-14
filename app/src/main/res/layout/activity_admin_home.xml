@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    tools:context=".admin_home">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/comp1"
+        android:layout_width="345dp"
+        android:layout_height="255dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="15dp"
+        tools:cardBackgroundColor="@color/common_google_signin_btn_text_dark_default">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="255dp">
+
+            <Button
+                android:id="@+id/comp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/side_nav_bar_3"
+                android:layout_alignParentTop="true"
+                android:text="View Complaints"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                tools:textSize="40dp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/lout1"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:id="@+id/lout"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Logout"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/recomp1"-->
+        <!--android:layout_width="345dp"-->
+        <!--android:layout_height="255dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="335dp"-->
+        <!--android:elevation="10dp"-->
+        <!--app:cardCornerRadius="15dp"-->
+        <!--tools:cardBackgroundColor="@color/common_google_signin_btn_text_dark_default">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="255dp">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/recomp"-->
+                <!--style="@style/Widget.AppCompat.Button.Borderless"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:background="@drawable/side_nav_bar"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:text="Repeated Complaints"-->
+                <!--android:textColor="@color/common_google_signin_btn_text_dark_default"-->
+                <!--tools:textSize="40dp" />-->
+
+        <!--</RelativeLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+
+</RelativeLayout>

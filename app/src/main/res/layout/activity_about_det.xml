@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    tools:context=".about_det">
+
+    <TextView
+        android:id="@+id/t0"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:text="About App"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/t0"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="AntiRaGG is a smartphone-based android application which provides a platform for the newly admitted students to report any ragging against them as well secures them in emergency by shake and send mechanism."/>
+
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/t1"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Students will be able to report their complaints against any such incident to the university authorities. Complaint can be supplemented by any photo or video proofs to give gravity to the report. Further, students can check progress of their complaint under “Complaint Status”."/>
+    <TextView
+        android:id="@+id/t3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/t2"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Authorized personnel from university can check for reported complaints and take any further action for the same. Administrator will be responsible for updating complaint status as Rectified or Under Process."/>
+    <TextView
+        android:id="@+id/t4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/t3"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The feature which makes the platform more reliable is its shake and send mechanism which can be used in emergency by a junior. He/she may shake his/her device to send their precise location to the security personnel and report an emergency situation and acquire help against the social evil."/>
+    <TextView
+        android:id="@+id/t5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/t4"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Further, important contacts, rules, regulations and undertakings with respect to the university and Government of India will be provided with the same. It will prove an effective deterrence against banned practice of ragging in the university."/>
+
+</RelativeLayout>

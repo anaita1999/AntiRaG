@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon4"
+        android:label="AU AntiRag"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".registeration_form" />
+        <activity android:name=".recovery" />
+        <activity
+            android:name=".home"
+            android:label="Home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".compor" />
+        <activity android:name=".admin_home" />
+        <activity android:name=".ComplaintActivity" />
+        <activity android:name=".location" />
+        <activity android:name=".rules" />
+        <activity android:name=".co_details" />
+        <activity android:name=".ausoet_det" />
+        <activity android:name=".about_det"></activity>
+    </application>
+
+</manifest>
